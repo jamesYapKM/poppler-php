@@ -8,17 +8,18 @@
  * Time:    2:31 PM
  **/
 
-use NcJoes\PopplerPhp\Config;
-use NcJoes\PopplerPhp\Constants as C;
-use NcJoes\PopplerPhp\Exceptions\PopplerPhpException;
-use NcJoes\PopplerPhp\PdfInfo;
-use NcJoes\PopplerPhp\PdfToCairo;
-use NcJoes\PopplerPhp\PdfUnite;
+use jamesYapKM\PopplerPhp\Config;
+use jamesYapKM\PopplerPhp\Constants as C;
+use jamesYapKM\PopplerPhp\Exceptions\PopplerPhpException;
+use jamesYapKM\PopplerPhp\PdfInfo;
+use jamesYapKM\PopplerPhp\PdfToCairo;
+use jamesYapKM\PopplerPhp\PdfUnite;
+use \PHPUnit\Framework\TestCase;
 
 /**
  * Class PopplerUtilTest
  */
-class PopplerUtilTest extends PHPUnit_Framework_TestCase
+class PopplerUtilTest extends TestCase
 {
     /**
      *

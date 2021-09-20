@@ -7,15 +7,15 @@
  * Time:    11:35 AM
  **/
 
-use NcJoes\PopplerPhp\Config;
-use NcJoes\PopplerPhp\Constants as C;
-use NcJoes\PopplerPhp\Exceptions\PopplerPhpException;
-use NcJoes\PopplerPhp\PdfToCairo;
-
+use jamesYapKM\PopplerPhp\Config;
+use jamesYapKM\PopplerPhp\Constants as C;
+use jamesYapKM\PopplerPhp\Exceptions\PopplerPhpException;
+use jamesYapKM\PopplerPhp\PdfToCairo;
+use \PHPUnit\Framework\TestCase;
 /**
  * Class PdfToCairoTest
  */
-class PdfToCairoTest extends PHPUnit_Framework_TestCase
+class PdfToCairoTest extends TestCase
 {
     /**
      *

@@ -7,15 +7,16 @@
  * Time:    11:35 AM
  **/
 
-use NcJoes\PopplerPhp\Config;
-use NcJoes\PopplerPhp\Constants as C;
-use NcJoes\PopplerPhp\Exceptions\PopplerPhpException;
-use NcJoes\PopplerPhp\PdfInfo;
+use jamesYapKM\PopplerPhp\Config;
+use jamesYapKM\PopplerPhp\Constants as C;
+use jamesYapKM\PopplerPhp\Exceptions\PopplerPhpException;
+use jamesYapKM\PopplerPhp\PdfInfo;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class PdfInfoTest
  */
-class PdfInfoTest extends PHPUnit_Framework_TestCase
+class PdfInfoTest extends TestCase
 {
     /**
      * @throws PopplerPhpException

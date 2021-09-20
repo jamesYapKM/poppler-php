@@ -7,13 +7,13 @@
  * Time:    2:58 PM
  **/
 
-namespace NcJoes\PopplerPhp;
+namespace jamesYapKM\PopplerPhp;
 
-use NcJoes\PopplerPhp\Constants as C;
+use jamesYapKM\PopplerPhp\Constants as C;
 
 /**
  * Class Helpers
- * @package NcJoes\PopplerPhp
+ * @package jamesYapKM\PopplerPhp
  */
 abstract class Helpers
 {

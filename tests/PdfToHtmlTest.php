@@ -7,14 +7,15 @@
  * Time:    4:46 AM
  **/
 
-use NcJoes\PopplerPhp\Config;
-use NcJoes\PopplerPhp\Exceptions\PopplerPhpException;
-use NcJoes\PopplerPhp\PdfToHtml;
+use jamesYapKM\PopplerPhp\Config;
+use jamesYapKM\PopplerPhp\Exceptions\PopplerPhpException;
+use jamesYapKM\PopplerPhp\PdfToHtml;
+use \PHPUnit\Framework\TestCase;
 
 /**
  * Class PdfToHtmlTest
  */
-class PdfToHtmlTest extends PHPUnit_Framework_TestCase
+class PdfToHtmlTest extends TestCase
 {
     /**
      *

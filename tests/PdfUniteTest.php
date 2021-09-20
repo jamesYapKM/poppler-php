@@ -1,14 +1,15 @@
 <?php
 
-use NcJoes\PopplerPhp\Config;
-use NcJoes\PopplerPhp\Exceptions\PopplerPhpException;
-use NcJoes\PopplerPhp\PdfInfo;
-use NcJoes\PopplerPhp\PdfUnite;
+use jamesYapKM\PopplerPhp\Config;
+use jamesYapKM\PopplerPhp\Exceptions\PopplerPhpException;
+use jamesYapKM\PopplerPhp\PdfInfo;
+use jamesYapKM\PopplerPhp\PdfUnite;
+use \PHPUnit\Framework\TestCase;
 
 /**
  * Class PdfUniteTest
  */
-class PdfUniteTest extends PHPUnit_Framework_TestCase
+class PdfUniteTest extends TestCase
 {
 
     /**
@@ -20,7 +21,7 @@ class PdfUniteTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException NcJoes\PopplerPhp\Exceptions\PopplerPhpException
+     * @expectedException jamesYapKM\PopplerPhp\Exceptions\PopplerPhpException
      */
     public function testConstructorThrowsExceptionIfSrcPdfFilesIsEmpty()
     {
@@ -28,7 +29,7 @@ class PdfUniteTest extends PHPUnit_Framework_TestCase
     }
 
     /**
-     * @expectedException NcJoes\PopplerPhp\Exceptions\PopplerPhpException
+     * @expectedException jamesYapKM\PopplerPhp\Exceptions\PopplerPhpException
      */
     public function testConstructorThrowsExceptionIfSingleSrcPdfFileIsGiven()
     {

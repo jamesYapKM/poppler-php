@@ -1,12 +1,12 @@
 <?php
 
-namespace NcJoes\PopplerPhp\PopplerOptions;
+namespace jamesYapKM\PopplerPhp\PopplerOptions;
 
-use NcJoes\PopplerPhp\Constants as C;
+use jamesYapKM\PopplerPhp\Constants as C;
 
 /**
  * Trait TextFlags
- * @package NcJoes\PopplerPhp\PopplerOptions
+ * @package jamesYapKM\PopplerPhp\PopplerOptions
  */
 trait TextFlags
 {
